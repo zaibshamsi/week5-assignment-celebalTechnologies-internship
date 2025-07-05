@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f9f9f9;
+  padding: 30px;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+#btn {
+  background-color: red;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+#btn:hover {
+  background-color: #45a049;
+}
+#hidebtn {
+  background-color: red;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+#hidebtn:hover {
+  background-color: #45a049;
+}
+
+.btnDelete {
+  background-color: black;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.btnDelete:hover {
+  background-color: #45a049;
+}
+
+.talent-list {
+  margin-top: 20px;
+  display: grid;
+  gap: 15px;
+}
+
+.talent-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 10px;
+}
+
+.talent-card {
+  background-color: #f1f5f9;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 16px;
+  width: 220px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.talent-card:hover {
+  transform: scale(1.03);
+}
+
+.talent-name {
+  margin: 0;
+  font-size: 18px;
+  color: #1e293b;
+}
+
+.talent-class,
+.talent-skill {
+  margin: 8px 0 0;
+  font-size: 14px;
+  color: #475569;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Talent Showcase</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>🎭 Student Talent Showcase</h1>
+
+    <form id="talentForm">
+      <input type="text" id="name" name="name" placeholder="Student Name" required />
+      <input type="text" id="class" name="studentClass" placeholder="Class (e.g. 10-B)" />
+      <input type="text" id="talent" name="talent" placeholder="Talent (e.g. Singing, Coding)" required />
+      <button type="submit">Submit Talent</button>
+    </form>
+    
+    <hr />
+    <button id="btn" type="submit">Show Talent(GET request)</button>
+    <button id="hidebtn" type="submit">Hide List</button>
+    <h2>Submitted Talents</h2>
+    <div id="talentList" class="talent-list">
+      </div>
+    </div>
+
+</body>
+
+</html>
