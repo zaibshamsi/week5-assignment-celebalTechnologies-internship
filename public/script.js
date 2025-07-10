@@ -60,7 +60,7 @@ document.getElementById("btn").addEventListener("click", async () => {
             return;
         }
 
-        // ✅ Defensive check
+        
         if (!Array.isArray(result.students)) {
             console.error("Expected 'students' to be an array but got:", result.students);
             alert("Unexpected response from server.");
